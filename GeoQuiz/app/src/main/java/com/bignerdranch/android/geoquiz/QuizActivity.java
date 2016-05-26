@@ -87,7 +87,7 @@ public class QuizActivity extends AppCompatActivity {
         });
 
         //prev button
-        mPrevButton = (Button) findViewById(R.id.prev_button);
+    /*    mPrevButton = (Button) findViewById(R.id.prev_button);
         mPrevButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick (View v) {
@@ -102,7 +102,7 @@ public class QuizActivity extends AppCompatActivity {
                 }
                 updateQuestion();
             }
-        });
+        }); */
 
         //next button
         mNextButton = (Button) findViewById(R.id.next_button);
